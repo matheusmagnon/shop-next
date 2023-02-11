@@ -8,8 +8,6 @@ import logoImg from "../assets/logo.svg";
 globalStyles();
 
 export default function App({ Component, pageProps }: AppProps) {
-  console.log(logoImg);
-
   return (
     <Container>
       <Header>
